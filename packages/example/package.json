@@ -1,0 +1,25 @@
+{
+  "name": "@adso-ts/example",
+  "version": "0.0.0.rc-0",
+  "description": "Example",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "!dist/**/*.spec.*"
+  ],
+  "scripts": {
+    "build": "tsc --module commonjs"
+  },
+  "keywords": [
+    "ts",
+    "es6",
+    "util"
+  ],
+  "author": "Adam Sokołowski <adam.sokolowski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "~4.14.159",
+    "lodash": "~4.17.20"
+  }
+}
