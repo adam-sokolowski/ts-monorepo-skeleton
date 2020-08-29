@@ -4,6 +4,14 @@
   "description": "Example",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-sokolowski/ts-monorepo-skeleton.git",
+    "directory": "packages/example"
+  },
   "files": [
     "dist/*",
     "!dist/**/*.spec.*"
